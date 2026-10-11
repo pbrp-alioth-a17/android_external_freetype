@@ -194,6 +194,7 @@ cc_library {
         "//apex_available:platform"
     ],
     visibility: [
+        "//bootable/recovery/minuitwrp",
         // libft2 is needed by build/soong/cc here: https://source.corp.google.com/h/googleplex-android/platform/superproject/main/+/main:build/soong/cc/Android.bp;l=153;drc=beae6368054d4b56425cdf4705f10804617fdeaa
         "//build/soong/cc",
         "//cts/hostsidetests/securitybulletin/securityPatch:__subpackages__",
